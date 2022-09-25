@@ -193,7 +193,6 @@ table thead th{
 }
 td,th{
   box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  /* box-shadow: 0 4px 2px -2px gray; */
 }
 .table-row div table tbody tr td,.table-row div table thead tr th{
   padding: 2vh 0;
@@ -204,14 +203,88 @@ td,th{
 .td-entered{
   border-right: 1px solid black;
 }
-/* ----- */
-.first-td-entered,.first-th-entered{
-  /* border: 5px solid black; */
+.left-cells{
   border-start-start-radius: 10px;
   border-end-start-radius: 10px;
 }
-.last-td-entered,.last-th-entered{
-  /* border: 5px solid black; */
+.right-cells{
   border-end-end-radius: 10px;
   border-start-end-radius: 10px;
+}
+table tbody tr td:first-child{
+  cursor: pointer;
+}
+/* the model of update */
+#row2 div div div div .modal-header{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #DEDEDE;
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#row2 div div div div .modal-header p{
+  text-align: right;
+  margin-left: 5vw;
+}
+/* section1 */
+.modal-body-section1{
+  text-align: right;
+}
+.modal-body-section1 p{
+  margin: 0;
+}
+/* section2 */
+.modal-body-section2{
+  display: flex;
+  justify-content: space-between;
+  text-align: end;
+  margin: 4vh 0;
+}
+.modal-body-section2 > *{
+  height: 13vh;
+}
+.modal-body-section2 .money{
+  width: 10vw;
+  height: 4vh;
+  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-body-section2 .btn{
+  width: 10vw;
+  height: 4vh;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* section3 */
+.modal-body-section3{
+  display: flex;
+  justify-content: flex-start;
+}
+.modal-body-section3 div:nth-child(1){
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: 1px solid #4F6466;
+  width: 10vw;
+}
+.modal-body-section3 div:nth-child(1):hover{
+  color: rgb(255, 255, 255);
+  background-color: #4F6466;
+  border: 1px solid #4F6466;
+  width: 10vw;
+}
+.modal-body-section3 div:nth-child(2){
+  color: white;
+  background-color: #4f6466;
+  margin-left: 2vw;
+  width: 10vw;
+}
+.modal-body-section3 div:nth-child(2):hover{
+  color: white;
+  background-color: #4f6466;
+  margin-left: 2vw;
+  width: 10vw;
 }

@@ -19,25 +19,7 @@ const List = () => {
             }
         }
     }
-    // --------------
-    /* When the user clicks on the button, 
-    toggle between hiding and showing the dropdown content */
-    function myFunction2() {
-        document.getElementById("myDatedown").classList.toggle("show");
-    }
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-        if (!event.target.matches('.datedown') && !event.target.matches('.text')) {
-            var dropdowns = document.getElementsByClassName("datedown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-                }
-            }
-        }
-    }
+
     return ( 
         <React.Fragment>
             <div className="list-container">
@@ -76,81 +58,110 @@ const List = () => {
                         <table>
                             <thead>
                                 <tr>
-                                    <th className={'first-th-entered'}>تحديث</th>
+                                    <th className={'left-cells'}>تحديث</th>
                                     <th className={'th-entered'}>سعر الكشف</th>
                                     <th className={'th-entered'}>كلمة برده</th>
                                     <th className={'th-entered'}>كلمة</th>
                                     <th className={'th-entered'}>نوع الكشف</th>
                                     <th className={'th-entered'}>التاريخ</th>
-                                    <th className={'last-th-entered'}>الاسم</th>
+                                    <th className={'right-cells'}>الاسم</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td className={'first-td-entered td-entered'} id='hello'><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
-                                    <td className={'last-td-entered'}>كلمة</td>
+                                    <td className={'right-cells'}>كلمة</td>
                                 </tr>
                                 <tr>
-                                    <td className={'td-entered first-td-entered'}><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
-                                    <td className={'last-td-entered'}>كلمة</td>
+                                    <td className={'right-cells'}>كلمة</td>
                                 </tr>
                                 <tr>
-                                    <td className={'td-entered first-td-entered'}><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
-                                    <td className={'last-td-entered'}>كلمة</td>
+                                    <td className={'right-cells'}>كلمة</td>
                                 </tr>
                                 <tr>
-                                    <td className={'td-entered first-td-entered'}><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
-                                    <td className={'last-td-entered'}>كلمة</td>
+                                    <td className={'right-cells'}>كلمة</td>
                                 </tr>
                                 <tr>
-                                    <td className={'td-entered first-td-entered'}><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
-                                    <td className={'last-td-entered'}>كلمة</td>
+                                    <td className={'right-cells'}>كلمة</td>
                                 </tr>
                                 <tr>
-                                    <td className={'td-entered first-td-entered'}><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
-                                    <td className={'last-td-entered'}>كلمة</td>
+                                    <td className={'right-cells'}>كلمة</td>
                                 </tr>
                                 <tr>
-                                    <td className={'td-entered first-td-entered'}><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
                                     <td className={'td-entered'}>كلمة</td>
-                                    <td className={'last-td-entered'}>كلمة</td>
+                                    <td className={'right-cells'}>كلمة</td>
                                 </tr>
                             </tbody>
                         </table>
+                        {/* the modal of update */}
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <p>تاريخ الكشف<br/><strong>16-6-2022</strong></p>
+                                        <p>رقم التليفون<br/><strong>01007137667</strong></p>
+                                        <p>تاريخ الكشف<br/><strong>السعر</strong></p>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div className="modal-body-section1">
+                                            <p>نوع الكشف</p>
+                                            <p><strong>كشف جديد</strong></p>
+                                        </div>
+                                        <div className="modal-body-section2">
+                                            <p><br/><div className="btn btn-success">تسوية</div></p>
+                                            <p>أجل<br/><div className="money">50</div></p>
+                                            <p>دفع<br/><div className="money">150</div></p>
+                                            <p>سعر الكشف<br/><strong>200</strong></p>
+                                        </div>
+                                        <div className="modal-body-section3">
+                                            <div className="btn">إلغاء</div>
+                                            <div className="btn">تحديث</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* the modal of update */}
                     </div>
                 </div>
             </div>
