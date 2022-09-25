@@ -1,5 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
+import '../css files/sideBarCSS.css'
+
 
 const SideBar = () => {
     return ( 
