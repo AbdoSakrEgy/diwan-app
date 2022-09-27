@@ -185,24 +185,24 @@
     height: 3vh;
 }
 /* changeModal */
-.modal-content .modal-body{
+#changeModal .modal-content .modal-body{
     display: flex;
     flex-direction: column;
     margin: 0 3vw;
 }
-.modal-content .modal-header{
+#changeModal .modal-content .modal-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #4f6466;
-    color: white;
+    color: rgb(255, 255, 255);
     height: 5vh;
     padding: 0 3vw;
 }
-.modal-content .modal-header p{
+#changeModal .modal-content .modal-header p{
     margin: 0;
 }
-.modal-content .modal-header .fa-solid{
+#changeModal .modal-content .modal-header .fa-solid{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -345,6 +345,13 @@
     
 }
 /* deleteModal-body */
+#deleteModal .modal-header{
+    text-align: right;
+    background-color: #4f6466;
+    color: rgb(255, 255, 255);
+    height: 5vh;
+    padding: 0 3vw;
+}
 #deleteModal .modal-content{
     width: 35vw;
 }
