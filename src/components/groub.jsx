@@ -75,13 +75,31 @@ const Groub = () => {
                 <div className="row row2">
                     {/* payModal */}
                     <div class="modal" id="payModal">
-                        <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <p>modal header</p>
+                                    <p>الدفع</p>
                                 </div>
                                 <div class="modal-body">
-                                    <p>modal body</p>
+                                    <div className="modal-body-section-1">
+                                        <div className="info1"><p>التاريخ</p><p>16-6-2022</p></div>
+                                        <div className="info2"><p>رقم الحجز</p><p>8</p></div>
+                                        <div className="info3"><p>رقم التليفون</p><p>01007137667</p></div>
+                                        <div className="info4"><p>الاسم</p><p>عبدالرحيم صقر</p></div>
+                                    </div>
+                                    <div className="modal-body-section-2">
+                                        <div className="div1">
+                                            <div className="info5"><p>نوع الكشف</p><p>كشف جديد</p></div>
+                                        </div>
+                                        <div className="div2">
+                                            <div className="info6"><p>التاريخ</p></div>
+                                            <div className="info7"><p>التاريخ</p></div>
+                                            <div className="info8"><p>سعر الكشف</p><p>200</p></div>
+                                        </div>
+                                        <div className="div3">
+                                            
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -147,16 +165,16 @@ const Groub = () => {
                     {/* changeModal */}
                     {/* deleteModal */}
                     <div class="modal" id="deleteModal">
-                        <div class="modal-dialog modal-dialog-centered modal-xsm">
+                        <div class="modal-dialog modal-dialog-centered">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <p>حذف الحجز</p>
                                 </div>
                                 <div className="modal-body">
-                                    <div><p>هل تريد حذف الحجز</p></div>
-                                    <div>
-                                        <div><p>الغاء</p></div>
-                                        <div><p>حذف</p></div>
+                                    <div className="modal-body-section1">هل تريد حذف الحجز</div>
+                                    <div className="modal-body-section2">
+                                        <div>إلغاء</div>
+                                        <div>حذف</div>
                                     </div>
                                 </div>
                             </div>

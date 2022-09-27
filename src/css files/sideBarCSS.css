@@ -2,7 +2,7 @@
   background-image: url("../files/gkld.png");
   margin: 0;
   padding: 0;
-  padding-right: 10vw;
+  padding-right: 7vw;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -11,7 +11,7 @@
 }
 .sidebar{
   position: fixed;
-  width: 10vw;
+  width: 7vw;
   top:0;
   right: 0;
   bottom: 0;
@@ -28,7 +28,7 @@
   justify-content: center;
   align-items: center;
   height: 10vh;
-  margin: 1vh 0;
+  margin: 0;
   padding: 0;
 }
 .logo{
@@ -39,7 +39,7 @@
   height: 10vh;
   margin: 0;
   padding: 0;
-  margin-bottom: 7vh;
+  margin-bottom: 4vh;
 }
 .sidebar .icon:hover,.logo:hover{
   background-color: #B8BFBF;
@@ -53,11 +53,11 @@
 .logo img{
   content:url(../files/logo.png);
   max-width: 100%;
-  height: 10vh;
+  height: 7vh;
   object-fit: cover;
   object-position: bottom;
 }
 .sidebar-icons{
-  font-size: 5vh;
+  font-size: 4vh;
   color: #4F6466;
 }
