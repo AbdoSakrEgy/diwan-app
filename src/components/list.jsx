@@ -24,7 +24,7 @@ const List = () => {
     return ( 
         <React.Fragment>
             <div className="list-container">
-                <div className="row" id="row1">
+                <div className="row row1">
                     <div className="col-4">
                         {/* datepicker */}
                         <span class="datepicker-toggle">
@@ -54,7 +54,7 @@ const List = () => {
                         {/* search */}
                     </div>
                 </div>
-                <div className="row table-row" id="row2">
+                <div className="row row2">
                     <div className="col-12">
                         <table>
                             <thead>

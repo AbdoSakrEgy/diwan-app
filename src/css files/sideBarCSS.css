@@ -45,6 +45,10 @@
   background-color: #B8BFBF;
   transition: 0.4s;
 }
+.sidebar .icon:active{
+  background-color: #B8BFBF;
+  transition: 0.4s;
+}
 
 .logo img{
   content:url(../files/logo.png);
