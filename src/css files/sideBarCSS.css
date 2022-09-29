@@ -2,7 +2,7 @@
   background-image: url("../files/gkld.png");
   margin: 0;
   padding: 0;
-  padding-right: 7vw;
+  padding-right: 5vw;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -11,7 +11,7 @@
 }
 .sidebar{
   position: fixed;
-  width: 7vw;
+  width: 6vw;
   top:0;
   right: 0;
   bottom: 0;
@@ -39,7 +39,7 @@
   height: 10vh;
   margin: 0;
   padding: 0;
-  margin-bottom: 4vh;
+  margin-bottom: 7vh;
 }
 .sidebar .icon:hover,.logo:hover{
   background-color: #B8BFBF;

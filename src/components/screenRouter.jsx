@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Groub from "./groub";
 import List from "./list";
+import Request from "./request";
 import SideBar from "./sideBar";
 
 const ScreenRouter = () => {
@@ -12,6 +13,7 @@ const ScreenRouter = () => {
                     <Route path="/" element={<SideBar/>}>
                         <Route path="/list" element={<List/>}/>
                         <Route path="/groub" element={<Groub/>}/>
+                        <Route path="/groub" element={<Request/>}/>
                     </Route>
                 </Routes>
             </BrowserRouter>

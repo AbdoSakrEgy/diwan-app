@@ -1,5 +1,5 @@
 import React from "react";
-import '../css files/groubCSS.css'
+import '../css files/groubCSS.css' 
 
 const Groub = () => {
     /* When the user clicks on the button, 
@@ -75,30 +75,29 @@ const Groub = () => {
                 <div className="row row2">
                     {/* payModal */}
                     <div class="modal" id="payModal">
-                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <p>الدفع</p>
                                 </div>
                                 <div class="modal-body">
-                                    <div className="modal-body-section-1">
-                                        <div className="info1"><p>التاريخ</p><p>16-6-2022</p></div>
-                                        <div className="info2"><p>رقم الحجز</p><p>8</p></div>
+                                    <div className="section1">
+                                        <div className="info1"><p>تاريخ الكشف</p><p>16-6-2022</p></div>
+                                        <div className="info2"><p>رقم المريض</p><p>8</p></div>
                                         <div className="info3"><p>رقم التليفون</p><p>01007137667</p></div>
-                                        <div className="info4"><p>الاسم</p><p>عبدالرحيم صقر</p></div>
+                                        <div className="info4"><p>الاسم</p><p>عبدالرحيم</p></div>
                                     </div>
-                                    <div className="modal-body-section-2">
-                                        <div className="div1">
-                                            <div className="info5"><p>نوع الكشف</p><p>كشف جديد</p></div>
-                                        </div>
-                                        <div className="div2">
-                                            <div className="info6"><p>التاريخ</p></div>
-                                            <div className="info7"><p>التاريخ</p></div>
-                                            <div className="info8"><p>سعر الكشف</p><p>200</p></div>
-                                        </div>
-                                        <div className="div3">
-                                            
-                                        </div>
+                                    <div className="section2">
+                                        <div className="info5"><p>نوع الكشف</p><p>كشف جديد</p></div>
+                                    </div>
+                                    <div className="section3">
+                                        <div className="info6"><p>أجل</p><div className="box1">50</div></div>
+                                        <div className="info7"><p>دفع</p><div className="box2">150</div></div>
+                                        <div className="info8"><p>سعر الكشف</p><p>200</p></div>
+                                    </div>
+                                    <div className="section4">
+                                        <div className="btn1" data-bs-dismiss="modal">الغاء</div>
+                                        <div className="btn2">تاكيد الدفع</div>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +154,7 @@ const Groub = () => {
                                             </div>
                                         </div>
                                         <div className="modal-section-4">
-                                            <div className="btn">دفع</div>
+                                            <div className="btn">تعديل</div>
                                             <div className="btn" data-bs-toggle="modal" data-bs-target="#deleteModal">حذف</div>
                                         </div>
                                 </div>
@@ -165,16 +164,18 @@ const Groub = () => {
                     {/* changeModal */}
                     {/* deleteModal */}
                     <div class="modal" id="deleteModal">
-                        <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-dialog modal-dialog-centered modal-xsm">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <p>حذف الحجز</p>
                                 </div>
                                 <div className="modal-body">
-                                    <div className="modal-body-section1">هل تريد حذف الحجز</div>
-                                    <div className="modal-body-section2">
-                                        <div>إلغاء</div>
-                                        <div>حذف</div>
+                                    <div className="div1">
+                                        <p>هل تريد حذف الحجز</p>
+                                    </div>
+                                    <div className="div2">
+                                        <p className="btn1" data-bs-dismiss="modal">الغاء</p>
+                                        <p className="btn2">حذف</p>
                                     </div>
                                 </div>
                             </div>
@@ -182,6 +183,114 @@ const Groub = () => {
                     </div>
                     {/* deleteModal */}
                     {/* cards */}
+                    <div className="card">
+                        <div className="card-section-1">
+                            <p><strong>رقم التليفون</strong><br />01007137667</p>
+                            <p><strong>الاسم</strong><br />عبدالرحيم صقر</p>
+                        </div>
+                        <div className="card-section-2">
+                            <p><strong>سعر الكشف</strong><br />200</p>
+                            <p><strong>نوع الكشف</strong><br />كشف جديد</p>
+                        </div>
+                        <div className="card-section-3">
+                            <p><strong>رقم المريض</strong><br />8</p>
+                            <p><strong>تاريخ الحجز</strong><br />السبت<br/>16-8-2022</p>
+                        </div>
+                        <div className="card-section-4">
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#payModal">دفع</div>
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#changeModal">تعديل</div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-section-1">
+                            <p><strong>رقم التليفون</strong><br />01007137667</p>
+                            <p><strong>الاسم</strong><br />عبدالرحيم صقر</p>
+                        </div>
+                        <div className="card-section-2">
+                            <p><strong>سعر الكشف</strong><br />200</p>
+                            <p><strong>نوع الكشف</strong><br />كشف جديد</p>
+                        </div>
+                        <div className="card-section-3">
+                            <p><strong>رقم المريض</strong><br />8</p>
+                            <p><strong>تاريخ الحجز</strong><br />السبت<br/>16-8-2022</p>
+                        </div>
+                        <div className="card-section-4">
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#payModal">دفع</div>
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#changeModal">تعديل</div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-section-1">
+                            <p><strong>رقم التليفون</strong><br />01007137667</p>
+                            <p><strong>الاسم</strong><br />عبدالرحيم صقر</p>
+                        </div>
+                        <div className="card-section-2">
+                            <p><strong>سعر الكشف</strong><br />200</p>
+                            <p><strong>نوع الكشف</strong><br />كشف جديد</p>
+                        </div>
+                        <div className="card-section-3">
+                            <p><strong>رقم المريض</strong><br />8</p>
+                            <p><strong>تاريخ الحجز</strong><br />السبت<br/>16-8-2022</p>
+                        </div>
+                        <div className="card-section-4">
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#payModal">دفع</div>
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#changeModal">تعديل</div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-section-1">
+                            <p><strong>رقم التليفون</strong><br />01007137667</p>
+                            <p><strong>الاسم</strong><br />عبدالرحيم صقر</p>
+                        </div>
+                        <div className="card-section-2">
+                            <p><strong>سعر الكشف</strong><br />200</p>
+                            <p><strong>نوع الكشف</strong><br />كشف جديد</p>
+                        </div>
+                        <div className="card-section-3">
+                            <p><strong>رقم المريض</strong><br />8</p>
+                            <p><strong>تاريخ الحجز</strong><br />السبت<br/>16-8-2022</p>
+                        </div>
+                        <div className="card-section-4">
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#payModal">دفع</div>
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#changeModal">تعديل</div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-section-1">
+                            <p><strong>رقم التليفون</strong><br />01007137667</p>
+                            <p><strong>الاسم</strong><br />عبدالرحيم صقر</p>
+                        </div>
+                        <div className="card-section-2">
+                            <p><strong>سعر الكشف</strong><br />200</p>
+                            <p><strong>نوع الكشف</strong><br />كشف جديد</p>
+                        </div>
+                        <div className="card-section-3">
+                            <p><strong>رقم المريض</strong><br />8</p>
+                            <p><strong>تاريخ الحجز</strong><br />السبت<br/>16-8-2022</p>
+                        </div>
+                        <div className="card-section-4">
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#payModal">دفع</div>
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#changeModal">تعديل</div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-section-1">
+                            <p><strong>رقم التليفون</strong><br />01007137667</p>
+                            <p><strong>الاسم</strong><br />عبدالرحيم صقر</p>
+                        </div>
+                        <div className="card-section-2">
+                            <p><strong>سعر الكشف</strong><br />200</p>
+                            <p><strong>نوع الكشف</strong><br />كشف جديد</p>
+                        </div>
+                        <div className="card-section-3">
+                            <p><strong>رقم المريض</strong><br />8</p>
+                            <p><strong>تاريخ الحجز</strong><br />السبت<br/>16-8-2022</p>
+                        </div>
+                        <div className="card-section-4">
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#payModal">دفع</div>
+                            <div className="btn" data-bs-toggle="modal" data-bs-target="#changeModal">تعديل</div>
+                        </div>
+                    </div>
                     <div className="card">
                         <div className="card-section-1">
                             <p><strong>رقم التليفون</strong><br />01007137667</p>

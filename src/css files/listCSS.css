@@ -2,7 +2,7 @@
 .list-container{
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   width: 95%;
   height: 95vh;
 }
@@ -30,7 +30,7 @@
   height: 5vh;
   border-radius: 40px;
   padding: 1vh 1vw;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,7 +56,7 @@
   width: 30vw;
   height: 5vh;
   border-radius: 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   padding: 1vh 1vw;
 }
@@ -78,7 +78,7 @@
   position: absolute;
   font-size: 12px;
   background-color: white;
-  min-width: 26vw;
+  min-width: 27vw;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 2;
   margin-top: 6vh;
@@ -114,7 +114,7 @@
   height: 5vh;
   border: none;
   border-radius: 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   padding: 1vh 1vw;
 }
@@ -132,7 +132,7 @@ table thead th{
   color: white;
 }
 td,th{
-  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .row2 div table tbody tr td,.row2 div table thead tr th{
   padding: 2vh 0;
@@ -159,7 +159,7 @@ table tbody tr td:first-child{
   display: flex;
   justify-content: flex-end;
   background-color: #DEDEDE;
-  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .row2 div div div div .modal-header p{
   text-align: right;
@@ -185,7 +185,7 @@ table tbody tr td:first-child{
 .modal-body-section2 .money{
   width: 10vw;
   height: 4vh;
-  box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   border-radius: 3px;
   display: flex;
   justify-content: center;

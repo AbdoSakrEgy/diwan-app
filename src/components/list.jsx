@@ -155,7 +155,7 @@ const List = () => {
                                             <p>سعر الكشف<br/><strong>200</strong></p>
                                         </div>
                                         <div className="modal-body-section3">
-                                            <div className="btn">إلغاء</div>
+                                            <div className="btn" data-bs-dismiss="modal">إلغاء</div>
                                             <div className="btn">تحديث</div>
                                         </div>
                                     </div>

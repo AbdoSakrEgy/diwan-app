@@ -184,6 +184,92 @@
     width: 5vw; 
     height: 3vh;
 }
+/* payModal */
+#payModal div{
+    width: 100%;
+    margin: auto;
+}
+/* payModal modal-header */
+#payModal .modal-header,#payModal .modal-header p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 1vh 2vh 1vh 1vh;
+    background-color: #4F6466;
+    color: white;
+}
+/* payModal body section1 */
+#payModal .modal-body{
+    padding: 0;
+}
+#payModal .modal-body .section1,#payModal .modal-body .section2,#payModal .modal-body .section3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    padding: 2vh 1vw;
+}
+#payModal .modal-body .section1{
+    background-color: #DEDEDE;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+#payModal .modal-body .info1 p:nth-child(1),.info2 p:nth-child(1),.info3 p:nth-child(1),.info4 p:nth-child(1),.info5 p:nth-child(1),.info6 p:nth-child(1),.info7 p:nth-child(1),.info8 p:nth-child(1){
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    margin: 0 1vw;
+}
+#payModal .modal-body .info1 p:nth-child(2),.info2 p:nth-child(2),.info3 p:nth-child(2),.info4 p:nth-child(2),.info5 p:nth-child(2),.info8 p:nth-child(2){
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    margin: 0 1vw;
+}
+/* payModal body section3 */
+#payModal .modal-body .section3 .box1,#payModal .modal-body .section3 .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+    width: 7vw;
+    border-radius: 5px;
+    margin-right: 0;
+    margin-top: 1vh;
+}
+/* payModal body section4 */
+#payModal .modal-body .section4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#payModal .modal-body .section4 .btn1,#payModal .modal-body .section4 .btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2vh;
+    font-size: small;
+    height: 3vh;
+    margin: 2vh 0 3vh 3vh;
+}
+#payModal .modal-body .section4 .btn1{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: 1px solid #4F6466;
+    width: 5vw;
+    width: 7vw;
+}
+#payModal .modal-body .section4 .btn1:hover{
+    color: white;
+    background-color: #4F6466;
+}
+#payModal .modal-body .section4 .btn2{
+    color: rgb(255, 255, 255);
+    background-color: #1F8817;
+    width: 10vw;
+}
 /* changeModal */
 #changeModal .modal-content .modal-body{
     display: flex;
@@ -195,8 +281,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: #4f6466;
-    color: rgb(255, 255, 255);
-    height: 5vh;
+    color: white;
+    height: 7vh;
     padding: 0 3vw;
 }
 #changeModal .modal-content .modal-header p{
@@ -295,117 +381,54 @@
   margin-left: 2vw;
   width: 7vw;
 }
-/* payModal */
-/* payModal-body */
-#payModal .modal-body{
-    margin: 0;
-    padding: 0;
-}
-/* payModal-body-section-1 */
-#payModal .modal-body-section-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2vh 0;
-    background-color: #DEDEDE;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 100%;
-}
-#payModal .modal-body-section-1 .info1,.info2,.info3,.info4,.info5{
-    font-size: x-small;
-    text-align: right;
-    margin: 0 2vw;
-}
-#payModal .modal-body-section-1 .info1 p:nth-child(1),.info2 p:nth-child(1),.info3 p:nth-child(1),.info4 p:nth-child(1),.info5 p:nth-child(1){
-    margin: 0;
-}
-#payModal .modal-body-section-1 .info1 p:nth-child(2),.info2 p:nth-child(2),.info3 p:nth-child(2),.info4 p:nth-child(2),.info8 p:nth-child(2){
-    font-size: small;
-    font-weight: 500;
-    text-align: right;
-    margin: 0;
-}
-/* payModal-body-section-2 */
-#payModal .modal-body-section-2{
-    margin:0 1vw;
-}
-#payModal .modal-body-section-2 .div2{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 /* deleteModal */
-/* deleteModal-header */
-#deleteModal .modal-header,#deleteModal .modal-header p,#payModal .modal-header,#deleteModal .modal-header p{
+#deleteModal .modal-header,#deleteModal .modal-header p{
     display: flex;    
     justify-content: flex-end;
     align-items: center;
     text-align: right;
     margin: 0;
-    
-}
-/* deleteModal-body */
-#deleteModal .modal-header{
-    text-align: right;
     background-color: #4f6466;
-    color: rgb(255, 255, 255);
-    height: 5vh;
-    padding: 0 3vw;
-}
-#deleteModal .modal-content{
-    width: 35vw;
+    color: white;
 }
 #deleteModal .modal-body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+#deleteModal .modal-body .div2,#deleteModal .modal-body .div2 .btn1,#deleteModal .modal-body .div2 .btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    padding: 2vh 0 0 0;
 }
-/* deleteModal-body section-1 */
-#deleteModal .modal-body .modal-body-section1{
+#deleteModal .modal-body .div2 .btn1{
     color: #4F6466;
-    text-align: center;
-    font-size: 20px;
-}
-/* deleteModal-body section-2 */
-#deleteModal .modal-body .modal-body-section2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#deleteModal .modal-body .modal-body-section2 div:nth-child(1){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    border: 1px solid #4F6466;
-    width: 7vw; 
-    height: 3vh;
-    padding: 2vh 0;
+    background-color: white;
+    border: .5px solid #4F6466;
+    width: 8vw;
+    height: 4vh;
+    font-size: small;
+    padding: 0;
+    margin-right: 4vw;
     cursor: pointer;
     border-radius: 5px;
-    margin: 0 1vw;
 }
-#deleteModal .modal-body .modal-body-section2 div:nth-child(1):hover{
-    color: rgb(255, 255, 255);
+#deleteModal .modal-body .div2 .btn1:hover{
     background-color: #4F6466;
-    border: 1px solid #4F6466;
-    width: 7vw; 
-    height: 3vh;
+    color: white;
 }
-#deleteModal .modal-body .modal-body-section2 div:nth-child(2){
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#deleteModal .modal-body .div2 .btn2{
     color: rgb(255, 255, 255);
     background-color: #C24A4A;
-    width: 7vw; 
-    height: 3vh;
-    padding: 2vh 0;
+    width: 8vw;
+    height: 4vh;
+    font-size: small;
+    padding: 0;
     cursor: pointer;
     border-radius: 5px;
-    margin: 0 1vw;
 }
+
 
