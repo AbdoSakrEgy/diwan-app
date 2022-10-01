@@ -6,6 +6,7 @@
     width: 95%;
     height: 95vh;
     overflow-y: auto;
+    margin: 0 5vw 0 2vw;
   }
 .groub-container .row1,.groub-container .row2{
     margin-right: 2vw;

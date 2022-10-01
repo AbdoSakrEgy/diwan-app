@@ -1,0 +1,227 @@
+/* request-content */
+#request-content p{
+    margin: 0;
+    padding: 0;
+}
+#request-content{
+    background-color: white;
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+}
+/* header */
+#request-content .header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1vw 2vw;
+    color: white;
+    background-color: #4F6466;
+    border-radius: 5px;
+    height: 10%;
+}
+#request-content .header p{
+    margin: 0;
+    padding: 0 1vw 0 0;
+    font-size: x-large;
+}
+#request-content .header i{
+    font-size: x-large;
+}
+/* body */
+#request-content .body{
+    background-color: #E7EAEA;
+    padding: 0 2vw;
+    height: 90%;
+    border-radius: 5px;
+}
+/* row1 */
+#request-content .row1{
+    margin: 0 2vw 8vh 2vw;
+    padding-top: 5vh;
+}
+#request-content .row1 .new-patient,#request-content .row .registered-patient{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 12vw;
+    border-radius: 5px;
+    padding: 1vh 0;
+    cursor: pointer;
+}
+#request-content .row1 .new-patient{
+    color: #4F6466;
+    background-color: white;
+}
+#request-content .row1 .registered-patient{
+    color: white;
+    background-color: #4F6466;
+}
+#request-content .row1 .col-6:nth-child(1){
+    display: flex;
+    justify-content: flex-end;
+}
+/* row2 */
+#request-content .body .row2 .col-4 .info {
+    position: relative;
+    border: 0px solid #4F6466;
+    border-radius: 5px;
+    height: 4vh;
+    width: 20vw;
+    margin: 0 0 7vh 0;
+}
+#request-content .info .float-label{
+    position: absolute;
+    top: -15px;
+    right: 1vh;
+    background-color: #E7EAEA;
+    padding:0 1vw;
+    font-size: small;
+}
+#request-content .info input{
+    background-color: #E7EAEA;
+    border: 0.5px solid #4F6466;
+    border-radius: 5px;
+    height: 4vh;
+    width: 20vw;
+    text-align: right;
+    outline-style: none;
+}
+/* row3 */
+#request-content .row3 .show-btn{
+    color: white;
+    background-color: #4F6466;
+    width: 11vw;
+    text-align: center;
+    border-radius: 5px;
+    padding: .5vh 1vw;
+    cursor: pointer;
+    margin: 0 0 2vh 0;
+}
+#request-content .row3 a{
+    color: white;
+    text-decoration: none;
+}
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ReservationShow-content */
+#ReservationShow-content p{
+    margin: 0;
+    padding: 0;
+}
+#ReservationShow-content{
+    background-color: white;
+    width: 45%;
+    height: 45%;
+    border-radius: 5px;
+}
+/* header */
+#ReservationShow-content .header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1vw 2vw;
+    color: white;
+    background-color: #4F6466;
+    border-radius: 5px;
+    height: 10%;
+}
+#ReservationShow-content .header p{
+    margin: 0;
+    padding: 0 1vw 0 0;
+    font-size: x-large;
+}
+#ReservationShow-content .header i{
+    font-size: x-large;
+}
+/* body */
+#ReservationShow-content .body{
+    background-color: #E7EAEA;
+    padding: 0 2vw;
+    height: 90%;
+    border-radius: 5px;
+}
+/* row1 */
+#ReservationShow-content .body .row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: right;
+    padding: 5vh 0;
+}
+#ReservationShow-content .body .row1 .info{
+    padding: 1vh 0;
+}
+#ReservationShow-content .body .row1 .info .title{
+    font-size: small;
+}
+#ReservationShow-content .body .row1 .info .data{
+    font-size: large;
+    font-weight: 600;
+}
+/* row2 */
+#ReservationShow-content .body .row2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#ReservationShow-content .body .row2 .btn1,#ReservationShow-content .body .row2 .btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    padding: .4vh .5vw;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#ReservationShow-content .body .row2 .btn1{
+    color: white;
+    background-color: #4F6466;
+    margin-right: 2vw;
+}
+#ReservationShow-content .body .row2 .btn2{
+    color: #4F6466;
+    background-color: white;
+    border: .5px solid #4F6466;
+}
+#ReservationShow-content .body .row2 .btn2:hover{
+    background-color: #4F6466;
+    color: white;
+}
+#ReservationShow-content .body .row2 a{
+    color: white;
+    text-decoration: none;
+}
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+
+#ReservationPrint-content{
+    width: 100%;
+    height: 100%;
+}
+#ReservationPrint-content .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ReservationPrint-content .body i{
+    color: #4F6466;
+    font-size: 15vw;
+}
+#ReservationPrint-content .body p{
+    color: #4F6466;
+    font-size: 40px;
+}
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+

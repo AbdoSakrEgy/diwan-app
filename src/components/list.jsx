@@ -60,9 +60,9 @@ const List = () => {
                             <thead>
                                 <tr>
                                     <th className={'left-cells'}>تحديث</th>
+                                    <th className={'th-entered'}>متبقي</th>
+                                    <th className={'th-entered'}>تم التحصيل</th>
                                     <th className={'th-entered'}>سعر الكشف</th>
-                                    <th className={'th-entered'}>كلمة برده</th>
-                                    <th className={'th-entered'}>كلمة</th>
                                     <th className={'th-entered'}>نوع الكشف</th>
                                     <th className={'th-entered'}>التاريخ</th>
                                     <th className={'right-cells'}>الاسم</th>
@@ -71,66 +71,111 @@ const List = () => {
                             <tbody>
                                 <tr>
                                     <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'right-cells'}>كلمة</td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
                                 </tr>
                                 <tr>
                                     <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'right-cells'}>كلمة</td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
                                 </tr>
                                 <tr>
                                     <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'right-cells'}>كلمة</td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
                                 </tr>
                                 <tr>
                                     <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'right-cells'}>كلمة</td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
                                 </tr>
                                 <tr>
                                     <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'right-cells'}>كلمة</td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
                                 </tr>
                                 <tr>
                                     <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'right-cells'}>كلمة</td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
                                 </tr>
                                 <tr>
                                     <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'td-entered'}>كلمة</td>
-                                    <td className={'right-cells'}>كلمة</td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
+                                </tr>
+                                <tr>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
+                                </tr>
+                                <tr>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
+                                </tr>
+                                <tr>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
+                                </tr>
+                                <tr>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
+                                </tr>
+                                <tr>
+                                    <td className={'td-entered left-cells'} data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-refresh"></i></td>
+                                    <td className={'td-entered'}>50</td>
+                                    <td className={'td-entered'}>150</td>
+                                    <td className={'td-entered'}>200</td>
+                                    <td className={'td-entered'}>كشف جديد</td>
+                                    <td className={'td-entered'}>السبت 16-5-2022</td>
+                                    <td className={'right-cells'}>اسم المريض</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -141,7 +186,7 @@ const List = () => {
                                     <div class="modal-header">
                                         <p>تاريخ الكشف<br/><strong>16-6-2022</strong></p>
                                         <p>رقم التليفون<br/><strong>01007137667</strong></p>
-                                        <p>تاريخ الكشف<br/><strong>السعر</strong></p>
+                                        <p>الاسم<br/><strong>اسم المريض</strong></p>
                                     </div>
                                     <div class="modal-body">
                                         <div className="modal-body-section1">

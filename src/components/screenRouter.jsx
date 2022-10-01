@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Groub from "./groub";
 import List from "./list";
-import Request from "./request";
+import ReservationRequest from "./ReservationRequest";
+import ReservationShow from "./ReservationShow";
 import SideBar from "./sideBar";
 
 const ScreenRouter = () => {
@@ -11,9 +12,10 @@ const ScreenRouter = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<SideBar/>}>
+                        <Route index element={<ReservationRequest/>}/>
+                        <Route path="/ReservationShow" element={<ReservationShow/>}/>
                         <Route path="/list" element={<List/>}/>
                         <Route path="/groub" element={<Groub/>}/>
-                        <Route path="/groub" element={<Request/>}/>
                     </Route>
                 </Routes>
             </BrowserRouter>
